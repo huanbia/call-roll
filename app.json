@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/callroll/callroll",
+    "pages/my/index",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "call-roll",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#aaa",
+    "selectedColor": "#ddc40b",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/callroll/callroll",
+        "text": "点名",
+        "iconPath": "img/comments.png",
+        "selectedIconPath": "img/comments1.png"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的",
+        "iconPath": "img/account.png",
+        "selectedIconPath": "img/account1.png"
+      }
+    ]
+  }
+}

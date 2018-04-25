@@ -1,0 +1,48 @@
+.apply-choice{
+    width: 30rpx;
+    height: 30rpx;
+    margin-right: 12rpx;
+    vertical-align: text-bottom;
+}
+.type-group{
+    position: relative;
+    width: 100%;
+    text-align: justify;
+    color:#695f9b;
+    overflow: hidden;
+}
+
+.type-item{
+    position: absolute;
+    left: -99999rpx;
+    top: -99999rpx;
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.type-label{
+    display: inline-block;
+    margin:0 25rpx 25rpx;
+    width: 137.5rpx;
+    height: 65rpx;
+    line-height: 65rpx;
+    text-align: center;
+    border-radius: 8rpx;
+    border: 1px solid #695f9b;
+}
+
+view{
+    font-size: 30rpx;
+    font-weight: 300;
+}
+.body{
+    padding: 25rpx 25rpx 0;
+    background-color: #fff;
+}
+
+.active{
+    background-color: #695f9b;
+    color: #fff;
+    transition: all .3s;
+}
